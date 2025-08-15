@@ -50,6 +50,8 @@
   --color-sidebar-ring: var(--sidebar-ring);
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+
+
   @keyframes marquee {
   from {
     transform: translateX(0);
@@ -154,4 +156,23 @@
 .our-Offringbg{
   border-radius: 16px;
 background: linear-gradient(180deg, #373A37 0%, #757575 100%);
+}
+
+@keyframes buttonheartbeat {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #ABD652;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 7px rgba(239, 68, 68, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.buttonheartbeat {
+  animation: buttonheartbeat 2s infinite ease-in-out;
 }

@@ -3,13 +3,13 @@ import Container from "../Common/Container";
 import useAsFeaturedInData from "@/hooks/useAsFeaturedInData";
 import { Marquee } from "../magicui/marquee";
 
-export default function AsFeaturedIn() {
+export default function BrandExperience() {
   const { featuredInData } = useAsFeaturedInData();
 
   return (
-    <div className="py-[80px] ">
+    <div className="py-[130px] ">
       <Container>
-        <h1 className="text-center text-2xl font-semibold">As Featured In</h1>
+        <h1 className="text-center text-2xl font-semibold">Brand Experience</h1>
         <div className="relative py-9">
           <Marquee className="[--duration:20s] [--gap:5rem]">
             {featuredInData.map((review) => (
@@ -19,7 +19,7 @@ export default function AsFeaturedIn() {
               >
                 <img
                   src={review.svg}
-                  className="h-10 w-36 px-2"
+                  className="h-10 w-40 px-2 brightness-0 dark:invert"
                   alt={`${review.name}`}
                 />
               </div>
