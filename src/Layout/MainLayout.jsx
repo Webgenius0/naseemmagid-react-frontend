@@ -14,7 +14,7 @@ export default function MainLayout() {
     let smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 8,
+      smooth: 2,
       effects: true,
       smoothTouch: 0.9,
     });
