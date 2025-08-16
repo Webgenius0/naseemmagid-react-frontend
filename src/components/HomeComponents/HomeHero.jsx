@@ -1,22 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+
 import Container from "../Common/Container";
 import { AllImages } from "../AllImages/AllImages";
 import { ArrowRight } from "../SVG/ArrowRightSVG";
 
 export default function HomeHero() {
+  const [videoError, setVideoError] = useState(false);
+
   return (
     <div className="relative w-full">
-      <video
-        src={AllImages?.heroVideo}
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="auto"
-        className="w-full h-[834px] object-cover"
-      ></video>
-
-      {/* <img src="" className="w-full h-[834px]" alt="" /> */}
+      {!videoError ? (
+        <video
+          className="w-full h-[834px] object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          onError={() => setVideoError(true)}
+        >
+          <source
+            src="https://res.cloudinary.com/dbioemqb0/video/upload/v1692123456/heroVideo_ca2c1t.mp4"
+            type="video/mp4"
+          />
+        </video>
+      ) : (
+        <img
+          src={AllImages?.heroFallbackImg}
+          className="w-full h-[834px] object-cover object-top"
+          alt="Hero Background"
+        />
+      )}
 
       <div className="absolute top-0 w-full h-[834px] bg-black/60"></div>
       <Container>
