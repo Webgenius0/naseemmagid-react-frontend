@@ -1,6 +1,9 @@
 import AsFeaturedIn from "@/components/HomeComponents/AsFeaturedIn";
 import BrandExperience from "@/components/HomeComponents/BrandExperience";
+import GotQuestions from "@/components/HomeComponents/GotQuestions";
+import GrowMarquee from "@/components/HomeComponents/GrowMarquee";
 import HomeHero from "@/components/HomeComponents/HomeHero";
+import IGuessWhat from "@/components/HomeComponents/IGuessWhat";
 import { OurClientsSay } from "@/components/HomeComponents/OurClientsSay";
 import OurOffring from "@/components/HomeComponents/OurOffring";
 import Owner from "@/components/HomeComponents/Owner";
@@ -16,7 +19,10 @@ export default function Home() {
       <OurOffring />
       <BrandExperience />
       <ThePoweris />
-      <OurClientsSay/>
+      <OurClientsSay />
+      <GrowMarquee />
+      <GotQuestions />
+      <IGuessWhat />
     </div>
   );
 }
