@@ -14,10 +14,15 @@ import {
 import { cn } from "@/lib/utils";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import { ChevronDown } from "lucide-react";
+import GoogleSVG from "@/components/SVG/GoogleSVG";
+import KeapSVG from "@/components/SVG/KeapSVG";
+import KalviyoSVG from "@/components/SVG/KalviyoSVG";
+import { MetaIcon } from "@/components/SVG/MetaIconSVG";
+import MetaTextSVG from "@/components/SVG/MetaTextSVG";
 
 export default function Footer() {
   return (
-    <div className="pb-[120px] pt-[136px] bg-[#080a07] -mt-7">
+    <div className="pb-[80px] pt-[136px] bg-[#080a07] -mt-7">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-4">
@@ -32,28 +37,25 @@ export default function Footer() {
             </div>
             <div className="mt-6">
               <Select>
-              <SelectPrimitive.Trigger
-                className={cn(
-                  "flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 text-white",
-                  "w-44"
-                )}
-              >
-                <SelectValue placeholder="Select a country" />
-                <SelectPrimitive.Icon asChild>
-                  <ChevronDown className="h-4 w-4 opacity-50" />
-                </SelectPrimitive.Icon>
-              </SelectPrimitive.Trigger>
-              <SelectContent>
-                <SelectGroup>
-
-                  <SelectItem value="United States">United States</SelectItem>
-                  <SelectItem value="Bangladesh">Bangladesh</SelectItem>
-                  <SelectItem value="Usa">USA</SelectItem>
-                  <SelectItem value="grapes">Grapes</SelectItem>
-                  <SelectItem value="pineapple">Pineapple</SelectItem>
-                </SelectGroup>
-              </SelectContent>
-            </Select>
+                <SelectPrimitive.Trigger
+                  className={cn(
+                    "flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 text-white",
+                    "w-44"
+                  )}
+                >
+                  <SelectValue placeholder="Select a country" />
+                  <SelectPrimitive.Icon asChild>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </SelectPrimitive.Icon>
+                </SelectPrimitive.Trigger>
+                <SelectContent>
+                  <SelectGroup>
+                    <SelectItem value="United States">United States</SelectItem>
+                    <SelectItem value="Bangladesh">Bangladesh</SelectItem>
+                    <SelectItem value="Usa">USA</SelectItem>
+                  </SelectGroup>
+                </SelectContent>
+              </Select>
             </div>
           </div>
           <div className="md:col-span-8 grid grid-cols-1 md:grid-cols-5 gap-4 text-white">
@@ -108,6 +110,30 @@ export default function Footer() {
           </div>
         </div>
       </Container>
+      <div className=" flex gap-4 mt-16 justify-center">
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+          <GoogleSVG />
+          Google Partner
+        </div>
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+          <KeapSVG
+            className="group-hover:[&>path]:fill-black w-6 h-6 text-white"
+            fillColor="currentColor"
+          />
+          Certified partner
+        </div>
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+          <KalviyoSVG />
+          partner
+        </div>
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+          <div className="flex items-center gap-1">
+            <MetaIcon className="w-6 h-6" />
+            <MetaTextSVG />
+          </div>
+          Business partner
+        </div>
+      </div>
     </div>
   );
 }

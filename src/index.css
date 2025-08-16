@@ -176,3 +176,14 @@ background: linear-gradient(180deg, #373A37 0%, #757575 100%);
 .buttonheartbeat {
   animation: buttonheartbeat 2s infinite ease-in-out;
 }
+
+.cardBox{
+  border-radius: 12px;
+background: var(--Neutral-N0, #FFF);
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+.earthGradient{
+  background: linear-gradient(0deg, #FFF 37.98%, #FFF 68.75%, rgba(255, 255, 255, 0.20) 99.52%);
+}

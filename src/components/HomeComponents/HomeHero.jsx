@@ -11,8 +11,12 @@ export default function HomeHero() {
         autoPlay
         loop
         muted
+        playsInline
+        preload="auto"
         className="w-full h-[834px] object-cover"
       ></video>
+
+      {/* <img src="" className="w-full h-[834px]" alt="" /> */}
 
       <div className="absolute top-0 w-full h-[834px] bg-black/60"></div>
       <Container>
@@ -30,9 +34,12 @@ export default function HomeHero() {
               placeholder="Enter your email here and we'll send you somaigc..."
               className=" py-4 px-6  bg-white outline-0 rounded-l-full w-[550px] text-xl"
             />
-            <button className="text-TertiaryBlack font-semibold flex items-center gap-2 bg-PrimaryColor
-             py-4 px-6 rounded-r-full w-[150px] cursor-pointer group text-xl">
-              Do it <ArrowRight className="fill-white w-6 h-6 transition-transform group-hover:translate-x-2" />
+            <button
+              className="text-TertiaryBlack font-semibold flex items-center gap-2 bg-PrimaryColor
+             py-4 px-6 rounded-r-full w-[150px] cursor-pointer group text-xl"
+            >
+              Do it{" "}
+              <ArrowRight className="fill-white w-6 h-6 transition-transform group-hover:translate-x-2" />
             </button>
           </div>
         </div>

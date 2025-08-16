@@ -1,6 +1,7 @@
 import AsFeaturedIn from "@/components/HomeComponents/AsFeaturedIn";
 import BrandExperience from "@/components/HomeComponents/BrandExperience";
 import GotQuestions from "@/components/HomeComponents/GotQuestions";
+import GrowGlobe from "@/components/HomeComponents/GrowGlobe";
 import GrowMarquee from "@/components/HomeComponents/GrowMarquee";
 import HomeHero from "@/components/HomeComponents/HomeHero";
 import IGuessWhat from "@/components/HomeComponents/IGuessWhat";
@@ -20,6 +21,7 @@ export default function Home() {
       <BrandExperience />
       <ThePoweris />
       <OurClientsSay />
+      <GrowGlobe/>
       <GrowMarquee />
       <GotQuestions />
       <IGuessWhat />
