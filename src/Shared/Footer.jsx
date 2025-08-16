@@ -95,14 +95,14 @@ export default function Footer() {
                 inbox every week . just enter your email below
               </p>
 
-              <div class="flex h-[54px] text-[14px] text-white/60 w-full">
+              <div className="flex h-[54px] text-[14px] text-white/60 w-full">
                 <input
-                  class="input w-[220px] text-black py-4 px-4 rounded-l-full text-lg bg-white focus:outline-none focus:ring-0 "
+                  className="input w-[220px] text-black py-4 px-4 rounded-l-full text-lg bg-white focus:outline-none focus:ring-0 "
                   name="text"
                   type="text"
                   placeholder="Get some free money now"
                 />
-                <button class="text-[#f4f4f5] py-4 px-4 rounded-r-full border-y border-r border-r-white/10 border-y-white/10 hover:bg-zinc-800/40 transition-all duration-150 easy-in-out bg-PrimaryColor font-bold text-lg flex items-center cursor-pointer">
+                <button className="text-[#f4f4f5] py-4 px-4 rounded-r-full border-y border-r border-r-white/10 border-y-white/10 hover:bg-zinc-800/40 transition-all duration-150 easy-in-out bg-PrimaryColor font-bold text-lg flex items-center cursor-pointer">
                   Hit me
                 </button>
               </div>
