@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Shared/Navbar";
-import {  useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import Footer from "@/Shared/Footer";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -29,6 +30,7 @@ export default function MainLayout() {
         <div id="smooth-content">
           <Navbar />
           <Outlet />
+          <Footer />
         </div>
       </div>
     </div>

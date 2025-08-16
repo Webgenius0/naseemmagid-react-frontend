@@ -12,9 +12,9 @@ export default function MenuSVG() {
       <path
         d="M13.3333 8H26.6666M5.33331 16H26.6666H9.33331M5.33331 24H18.6666"
         stroke="white"
-        stroke-width="3.33333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3.33333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
