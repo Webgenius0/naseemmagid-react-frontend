@@ -14,8 +14,8 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      {/* <HomeHero />
-      <AsFeaturedIn />
+      <HomeHero />
+      {/* <AsFeaturedIn />
       <Owner />
       <OurOffring />
       <BrandExperience />
