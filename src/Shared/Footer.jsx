@@ -24,10 +24,10 @@ export default function Footer() {
   return (
     <div className="pb-[80px] pt-[136px] bg-[#080a07] -mt-7">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-          <div className="md:col-span-4">
+        <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-4 gap-y-10 lg:gap-y-0">
+          <div className="xl:col-span-4 lg:pb-8">
             <h1 className="text-PrimaryColor text-3xl font-semibold">Nexal</h1>
-            <p className="text-white mt-6 mb-16">
+            <p className="text-white mt-6 mb-8 xl:mb-16">
               The most ruthlessly effective platform for rapidly scaling
               businesses on planet earth
             </p>
@@ -58,10 +58,11 @@ export default function Footer() {
               </Select>
             </div>
           </div>
-          <div className="md:col-span-8 grid grid-cols-1 md:grid-cols-5 gap-4 text-white">
+          {/* --------- */}
+          <div className="xl:col-span-8 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4 text-white">
             <div className="col-span-1">
               <h1 className="text-xl font-semibold">Company</h1>
-              <div className="mt-4 space-y-3 flex flex-col text-lg font-light text-[#DFE0E4]">
+              <div className="mt-4 space-y-3 flex flex-col text-base xl:text-lg font-light text-[#DFE0E4]">
                 <Link>About Us</Link>
                 <Link>Contact Us</Link>
                 <Link>Blog</Link>
@@ -72,7 +73,7 @@ export default function Footer() {
             </div>
             <div className="col-span-1">
               <h1 className="text-xl font-semibold">Services</h1>
-              <div className="mt-4 space-y-3 flex flex-col text-lg font-light text-[#DFE0E4]">
+              <div className="mt-4 space-y-3 flex flex-col text-base xl:text-lg font-light text-[#DFE0E4]">
                 <Link>SEO</Link>
                 <Link>Conversion Rate</Link>
                 <Link>Optimization</Link>
@@ -84,20 +85,20 @@ export default function Footer() {
             </div>
             <div className="col-span-1">
               <h1 className="text-xl font-semibold">Solutions</h1>
-              <div className="mt-4 space-y-3 flex flex-col text-lg font-light text-[#DFE0E4]">
+              <div className="mt-4 space-y-3 flex flex-col text-base xl:text-lg font-light text-[#DFE0E4]">
                 <Link>Agency</Link>
               </div>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 mt-6 xl:mt-0">
               <h1 className="text-xl font-semibold">Want some free money</h1>
-              <p className="leading-[27px] text-lg font-light text-[#DFE0E4] py-4">
+              <p className="leading-[27px] text-base xl:text-lg font-light text-[#DFE0E4] py-4">
                 Get million dollar marketing strategies send straight to your
                 inbox every week . just enter your email below
               </p>
 
               <div className="flex h-[54px] text-[14px] text-white/60 w-full">
                 <input
-                  className="input w-[220px] text-black py-4 px-4 rounded-l-full text-lg bg-white focus:outline-none focus:ring-0 "
+                  className="input w-[220px] text-black py-4 px-4 rounded-l-full  bg-white focus:outline-none focus:ring-0 "
                   name="text"
                   type="text"
                   placeholder="Get some free money now"
@@ -108,25 +109,27 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          {/* ------------ */}
         </div>
       </Container>
-      <div className=" flex gap-4 mt-16 justify-center">
-        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+      {/* ------ */}
+      <div className=" flex flex-wrap gap-4 mt-16 justify-center">
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-gray-100 duration-300 w-[136px] h-[90px] lg:h-[130px]  text-sm">
           <GoogleSVG />
           Google Partner
         </div>
-        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-gray-100 duration-300 w-[136px] h-[90px] lg:h-[130px]  text-sm">
           <KeapSVG
             className="group-hover:[&>path]:fill-black w-6 h-6 text-white"
             fillColor="currentColor"
           />
           Certified partner
         </div>
-        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-gray-100 duration-300 w-[136px] h-[90px] lg:h-[130px]  text-sm">
           <KalviyoSVG />
           partner
         </div>
-        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-PrimaryColor duration-300 w-[136px] h-[130px]  text-sm">
+        <div className="bg-white p-3 rounded-lg text-TertiaryBlack flex flex-col gap-y-2 justify-center items-center cursor-pointer hover:bg-gray-100 duration-300 w-[136px] h-[90px] lg:h-[130px]  text-sm">
           <div className="flex items-center gap-1">
             <MetaIcon className="w-6 h-6" />
             <MetaTextSVG />
