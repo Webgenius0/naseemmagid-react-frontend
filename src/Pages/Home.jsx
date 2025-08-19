@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <HomeHero />
-      {/* <AsFeaturedIn />
+      <AsFeaturedIn />
       <Owner />
       <OurOffring />
       <BrandExperience />
@@ -24,7 +24,7 @@ export default function Home() {
       <GrowGlobe/>
       <GrowMarquee />
       <GotQuestions />
-      <IGuessWhat /> */}
+      <IGuessWhat />
     </div>
   );
 }
