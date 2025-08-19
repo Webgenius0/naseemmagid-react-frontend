@@ -14,7 +14,7 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <HomeHero />
+      {/* <HomeHero />
       <AsFeaturedIn />
       <Owner />
       <OurOffring />
@@ -24,7 +24,7 @@ export default function Home() {
       <GrowGlobe/>
       <GrowMarquee />
       <GotQuestions />
-      <IGuessWhat />
+      <IGuessWhat /> */}
     </div>
   );
 }
