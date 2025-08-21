@@ -37,7 +37,7 @@ const reviews = [
   {
     name: "James",
     username: "@james",
-        body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
+    body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
@@ -69,16 +69,27 @@ const ReviewCard = ({ img, name, username, body, rating = 4 }) => {
       )}
     >
       {/* User Info */}
-      <div className="flex items-center gap-2">
-        <img className="rounded-full" width="52" height="52" alt={name} src={img} />
-        <div>
-          <figcaption className="text-lg font-medium dark:text-white">{name}</figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
-        </div>
-      </div>
 
-      {/* Star Rating */}
-      <StarRating rating={rating} />
+      <div className="flex md:flex-col items-center md:items-start justify-between">
+        <div className="flex items-center gap-2">
+          <img
+            className="rounded-full"
+            width="52"
+            height="52"
+            alt={name}
+            src={img}
+          />
+          <div>
+            <figcaption className="text-lg font-medium dark:text-white">
+              {name}
+            </figcaption>
+            <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          </div>
+        </div>
+
+        {/* Star Rating */}
+        <StarRating rating={rating} />
+      </div>
 
       {/* Review Body */}
       <blockquote className="mt-2 text-sm md:text-base">{body}</blockquote>
@@ -117,8 +128,8 @@ export function OurClientsSay() {
         </Marquee>
 
         {/* Gradient Fades */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background hidden md:block" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background hidden md:block" />
       </div>
 
       {/* View All Button */}
