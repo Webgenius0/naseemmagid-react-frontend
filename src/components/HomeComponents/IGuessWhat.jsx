@@ -272,9 +272,9 @@ const demoIcons = [
   { id: 3, icon: IconMicrosoft, className: "top-[80%] left-[10%]" },
   { id: 4, icon: IconFigma, className: "bottom-[10%] right-[10%]" },
   { id: 5, icon: IconGitHub, className: "top-[5%] left-[30%]" },
-  { id: 6, icon: IconSlack, className: "top-[5%] right-[30%]" },
+  { id: 6, icon: IconSlack, className: "top-[5%] right-[20%] xl:right-[30%]" },
   { id: 7, icon: IconVercel, className: "bottom-[8%] left-[25%]" },
-  { id: 8, icon: IconStripe, className: "top-[40%] left-[15%]" },
+  { id: 8, icon: IconStripe, className: "top-[36%] md:top-[50%] xl:top-[40%] left-[5%] md:left-[15%]" },
   { id: 9, icon: IconDiscord, className: "top-[75%] right-[25%]" },
   { id: 10, icon: IconX, className: "top-[50%] left-[70%]" },
   { id: 11, icon: IconNotion, className: "top-[50%] right-[5%]" },
@@ -282,7 +282,7 @@ const demoIcons = [
   { id: 13, icon: IconDropbox, className: "top-[5%] left-[55%]" },
   { id: 14, icon: IconTwitch, className: "bottom-[5%] right-[45%]" },
   { id: 15, icon: IconLinear, className: "top-[50%] right-[15%]" },
-  { id: 16, icon: IconYouTube, className: "top-[60%] left-[30%]" },
+  { id: 16, icon: IconYouTube, className: " top-[15%] lg:top-[65%] xl:top-[60%] left-[35%] lg:left-[25%] xl:left-[30%]" },
 ];
 
 export default function FloatingIconsHeroDemo() {

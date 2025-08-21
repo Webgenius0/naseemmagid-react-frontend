@@ -8,6 +8,7 @@ export default function FeaturedMarquee({
   itemClassName,
   reverse,
   durationClassName,
+  ItemClassName,
 }) {
   return (
     <div>
@@ -16,7 +17,7 @@ export default function FeaturedMarquee({
           <h1 className="text-center text-2xl font-semibold">{title}</h1>
         ) : null}
 
-        <div className="relative py-9">
+        <div className={`relative ${ItemClassName}`}>
           <Marquee reverse={reverse} className={durationClassName}>
             {items.map((item) => (
               <div
