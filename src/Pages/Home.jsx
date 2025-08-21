@@ -22,8 +22,8 @@ export default function Home() {
       <ThePoweris />
       <OurClientsSay />
       <GrowGlobe/>
-      {/* <GrowMarquee />
-      <GotQuestions />
+      <GrowMarquee />
+      {/* <GotQuestions />
       <IGuessWhat /> */}
     </div>
   );
