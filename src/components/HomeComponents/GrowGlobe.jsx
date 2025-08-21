@@ -28,13 +28,13 @@ const statsData = [
 
 export default function GrowGlobe() {
   return (
-    <div className="bg-[#f0f9e5] relative w-full pt-[212px]">
+    <div className="bg-[#f0f9e5] relative w-full pt-[120px] md:pt-[212px]">
       <Container>
         <div className="max-w-[659px] mx-auto leading-[76.8px]">
-          <h1 className="text-[64px] font-black text-TertiaryBlack">
+          <h1 className=" text-[40px] md:text-[56px] lg:text-[64px] leading-12 md:leading-none text-center font-black text-TertiaryBlack">
             GROW 10X FASTER, BETTER, SAMARTER
           </h1>
-          <p className="text-2xl font-light text-TertiaryBlack text-center mt-6 mb-[78px]">
+          <p className=" text-lg md:text-xl lg:text-2xl font-light text-TertiaryBlack text-center mt-6 mb-[78px]">
             Skip the guesswork, trial-and-error and never-ending shit show of
             trying to figure everything out yourself - for the very first time.
             And instead, grow your business with proven{" "}
@@ -50,7 +50,7 @@ export default function GrowGlobe() {
       </div>
 
       {/* card */}
-      <div className="absolute bottom-0 z-30 flex justify-center w-full">
+      {/* <div className="absolute bottom-0 z-30 flex justify-center w-full">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ">
             {statsData.map((item, idx) => (
@@ -70,11 +70,11 @@ export default function GrowGlobe() {
           </div>
         </Container>
       </div>
-      <div className="pointer-events-none z-25 left-0 w-full h-[200px] earthGradient absolute bottom-0"></div>
+      <div className="pointer-events-none z-25 left-0 w-full h-[200px] earthGradient absolute bottom-0"></div> */}
 
       {/* img */}
       <div className="absolute top-0 -left-1">
-        <img src={AllImages.GrowGlobe} className="w-[1164px]" alt="" />
+        <img src={AllImages.GrowGlobe} className="w-[300px] md:w-[500px] lg:w-[600px]  xl:w-[900px] 2xl:w-[1200px] h-full" alt="" />
       </div>
       <div className="absolute bottom-0 ">
         <img src={AllImages.GrowGlobe2} className="h-[400px]" alt="" />

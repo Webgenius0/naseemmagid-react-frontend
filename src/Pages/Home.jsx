@@ -22,9 +22,9 @@ export default function Home() {
       <ThePoweris />
       <OurClientsSay />
       <GrowGlobe/>
-      <GrowMarquee />
+      {/* <GrowMarquee />
       <GotQuestions />
-      <IGuessWhat />
+      <IGuessWhat /> */}
     </div>
   );
 }

@@ -13,8 +13,8 @@ export default function AsFeaturedIn() {
         <FeaturedMarquee
           title="As Featured In"
           items={featuredInData}
-          itemClassName="h-10 w-40 px-2 brightness-0 dark:invert"
-          durationClassName="[--duration:20s] [--gap:5rem]"
+          itemClassName="h-10 w-30 md:w-40 px-2"
+          durationClassName="[--duration:20s] [--gap:2rem] md:[--gap:5rem]"
         />
       </Container>
     </div>

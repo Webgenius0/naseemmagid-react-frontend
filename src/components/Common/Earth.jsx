@@ -32,7 +32,7 @@ const Earth = ({
           let start = null;
           const fadeIn = (timestamp) => {
             if (!start) start = timestamp;
-            const progress = (timestamp - start) / 500; // 500ms duration
+            const progress = (timestamp - start) / 500;
             const newOpacity = Math.min(progress, 1);
             setOpacity(newOpacity);
             if (progress < 1) {
@@ -129,11 +129,10 @@ const Earth = ({
     <div
       ref={containerRef}
       className={cn(
-        "flex items-center justify-center z-[10] w-full max-w-[550px] mx-auto transition-opacity duration-500",
+        "flex items-center justify-center z-[10] w-full max-w-[550px] lg:max-w-[550px] xl:max-w-[550px]  2xl:max-w-[550px] mx-auto transition-opacity duration-500 ease-in-out h-[60vh] md:h-[75vh] lg:h-[75vh] xl:h-[75vh] 2xl:h-[65vh]",
         className
       )}
-      style={{ 
-        height: "60vh", 
+      style={{  
         opacity: opacity,
         transition: "opacity 0.5s ease-in-out" 
       }}
