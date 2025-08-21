@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
-import { useState } from "react";
 import { Star } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -20,7 +19,7 @@ const reviews = [
   {
     name: "John",
     username: "@john",
-    body: "Loved working with Nas — super organized andalways on point with creative ideas. Made the whole process way less stressful",
+    body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
     img: "https://avatar.vercel.sh/john",
   },
   {
@@ -38,88 +37,74 @@ const reviews = [
   {
     name: "James",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+        body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
 
-
 // ⭐ Reusable StarRating component
-function StarRating({ rating, totalStars = 5 }) {
+function StarRating({ rating = 4, totalStars = 5 }) {
   return (
-    <div className="flex space-x-1">
-      {[...Array(totalStars)].map((_, index) => {
-        const ratingValue = index + 1;
-        return (
-          <Star
-            key={ratingValue}
-            className={`h-6 w-6 cursor-pointer ${
-              rating >= ratingValue
-                ? "text-yellow-400 fill-yellow-400"
-                : "text-gray-300"
-            }`}
-          />
-        );
-      })}
+    <div className="flex space-x-1 my-4">
+      {Array.from({ length: totalStars }, (_, i) => (
+        <Star
+          key={i}
+          className={cn(
+            "h-5 md:h-6 w-5 md:w-6",
+            rating > i ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
+          )}
+        />
+      ))}
     </div>
   );
 }
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
-
-const ReviewCard = ({ img, name, username, body }) => {
-  const [rating, setRating] = useState(4);
-  const [hoveredRating, setHoveredRating] = useState(null);
+const ReviewCard = ({ img, name, username, body, rating = 4 }) => {
   return (
     <figure
       className={cn(
-        "relative h-full w-[424px] cursor-pointer overflow-hidden rounded-xl border p-4",
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+        "relative w-[300px] lg:w-[424px] h-full rounded-xl border p-4 cursor-pointer overflow-hidden",
+        "border-gray-950/[.1] bg-gray-950/[.01] hover:shadow-md  duration-300",
         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
       )}
     >
-      <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="52" height="52" alt="" src={img} />
-        <div className="flex flex-col">
-          <figcaption className=" font-medium dark:text-white text-lg ">
-            {name}
-          </figcaption>
+      {/* User Info */}
+      <div className="flex items-center gap-2">
+        <img className="rounded-full" width="52" height="52" alt={name} src={img} />
+        <div>
+          <figcaption className="text-lg font-medium dark:text-white">{name}</figcaption>
           <p className="text-xs font-medium dark:text-white/40">{username}</p>
         </div>
       </div>
-      <div className="flex space-x-1 my-4">
-        {[1, 2, 3, 4, 5].map((ratingValue) => (
-          <Star
-            key={ratingValue}
-            className={`h-6 w-6 cursor-pointer ${
-              (
-                hoveredRating !== null
-                  ? hoveredRating >= ratingValue
-                  : rating !== null && rating >= ratingValue
-              )
-                ? "text-yellow-400 fill-yellow-400"
-                : "text-gray-300"
-            }`}
-          />
-        ))}
-      </div>
-      <blockquote className="mt-2 text-base">{body}</blockquote>
-      <div className="flex justify-between mt-4">
-        <p>February 28, 2024</p>
-        <Link className="text-red-500 cursor-pointer font-bold">Agency</Link>
+
+      {/* Star Rating */}
+      <StarRating rating={rating} />
+
+      {/* Review Body */}
+      <blockquote className="mt-2 text-sm md:text-base">{body}</blockquote>
+
+      {/* Footer */}
+      <div className="flex justify-between mt-4 text-sm">
+        <p className="text-gray-500">February 28, 2024</p>
+        <Link className="text-red-500 font-bold">Agency</Link>
       </div>
     </figure>
   );
 };
 
 export function OurClientsSay() {
+  const mid = Math.ceil(reviews.length / 2);
+  const firstRow = reviews.slice(0, mid);
+  const secondRow = reviews.slice(mid);
+
   return (
-    <div className="py-[130px]">
-      <h1 className="text-TertiaryBlack text-3xl font-semibold text-center">
+    <section className="py-[80px] md:py-[130px]">
+      <h1 className="text-center text-3xl font-semibold text-TertiaryBlack">
         What our Clients Say about us
       </h1>
-      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-[64px] gap-y-8">
+
+      {/* Reviews Marquee */}
+      <div className="relative flex flex-col items-center justify-center gap-y-8 py-[64px] w-full overflow-hidden">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
@@ -130,15 +115,18 @@ export function OurClientsSay() {
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+
+        {/* Gradient Fades */}
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background" />
       </div>
+
+      {/* View All Button */}
       <div className="flex justify-center">
-        <button className=" buttonheartbeat rounded-md bg-PrimaryColor px-8 py-4 text-sm font-semibold text-TertiaryBlack cursor-pointer">
+        <button className="buttonheartbeat rounded-md bg-PrimaryColor px-8 py-4 text-sm font-semibold text-TertiaryBlack cursor-pointer">
           View All
         </button>
-        <div></div>
       </div>
-    </div>
+    </section>
   );
 }

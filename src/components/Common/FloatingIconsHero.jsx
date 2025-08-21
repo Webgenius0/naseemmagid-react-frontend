@@ -119,13 +119,13 @@ const FloatingIconsHero = React.forwardRef(
         {/* Container for the foreground content */}
         <Container>
           <div className="relative z-10 text-center px-4 ">
-            <h1 className="text-5xl font-bold tracking-tight text-white">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white">
               {title}
             </h1>
             <div className="mt-10">
               <motion.button
                 whileHover={{ scale: 1.1 }}
-                className="rounded-xl bg-PrimaryColor px-8 py-6 text-2xl font-black uppercase text-white"
+                className="rounded-xl bg-PrimaryColor px-8 py-4 xl:py-6 text-lg lg:text-2xl font-black uppercase text-white"
                 transition={{ type: "spring", stiffness: 400, damping: 20 }}
               >
                 <a href={ctaHref}>{ctaText}</a>

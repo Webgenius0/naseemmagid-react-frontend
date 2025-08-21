@@ -42,9 +42,9 @@ const items = [
 
 export default function GotQuestions() {
   return (
-    <div className="pb-[100px]">
+    <div className="mt-[40px] lg:mt-[80px] pb-[40px] lg:pb-[100px]">
       <Container>
-        <div className="text-[64px] text-TertiaryBlack font-black text-center leading-[76.8px]">
+        <div className="text-[45px] md:text-[50px] lg:text-[64px] text-TertiaryBlack font-black text-center leading-14 lg:leading-[76.8px]">
           YOU'VE GOT QUESTIONS,
           <br /> WE'VE GOT ANSWERS.
         </div>
