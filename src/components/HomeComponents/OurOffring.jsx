@@ -34,14 +34,14 @@ export default function OurOffering() {
           {/* Badge */}
           <div className="absolute -top-15 left-1/2 -translate-x-1/2 z-10">
             <div className="flex h-[210px] w-[210px] items-center justify-center rounded-full bg-[#1C1D20]">
-              <span className="text-[180px] font-bold text-PrimaryColor">N</span>
+              <span className="text-[150px] md:text-[180px] font-bold text-PrimaryColor">N</span>
             </div>
           </div>
 
           {/* Content */}
           <article className=" py-[64px] px-10 md:p-[64px] pt-6 mt-40 text-center text-white">
             <h2 className="text-2xl font-bold">HIRE US TO DO IT FOR YOU</h2>
-            <h1 className=" text-[70px] md:text-[96px] font-black">AGENCY</h1>
+            <h1 className=" text-[60px] md:text-[96px] font-black">AGENCY</h1>
             <p className="mt-2 text-lg font-light">
               Managed and "done-for-you" digital marketing services for
               small-to-large companies looking for hyper-growth. And yes, we
@@ -70,7 +70,7 @@ export default function OurOffering() {
       <img
         src={AllImages.OurOffringimg}
         alt="Our Offering"
-        className="absolute left-0 -top-0.5 h-auto w-[148px] md:w-[290px] lg:w-[440px] xl:w-[560px] 2xl:w-[740px]"
+        className="absolute left-0 -top-0.5 h-auto w-[148px] md:w-[290px] lg:w-[440px] xl:w-[560px] 2xl:w-[740px] hidden md:block"
       />
     </section>
   );
