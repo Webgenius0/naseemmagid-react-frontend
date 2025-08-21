@@ -23,8 +23,8 @@ export default function Home() {
       <OurClientsSay />
       <GrowGlobe/>
       <GrowMarquee />
-      {/* <GotQuestions />
-      <IGuessWhat /> */}
+      <GotQuestions />
+      <IGuessWhat />
     </div>
   );
 }

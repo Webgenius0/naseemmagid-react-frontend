@@ -22,7 +22,7 @@ import MetaTextSVG from "@/components/SVG/MetaTextSVG";
 
 export default function Footer() {
   return (
-    <div className="pb-[80px] pt-[136px] bg-[#080a07] -mt-7">
+    <div className="pb-[80px] pt-[80px] xl:pt-[136px] bg-[#080a07] -mt-8">
       <Container>
         <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-4 gap-y-10 lg:gap-y-0">
           <div className="xl:col-span-4 lg:pb-8">
@@ -96,7 +96,7 @@ export default function Footer() {
                 inbox every week . just enter your email below
               </p>
 
-              <div className="flex h-[54px] text-[14px] text-white/60 w-full">
+              <div className="flex h-[48px] md:h-[54px] text-[14px] text-white/60 w-full">
                 <input
                   className="input w-[220px] text-black py-4 px-4 rounded-l-full  bg-white focus:outline-none focus:ring-0 "
                   name="text"

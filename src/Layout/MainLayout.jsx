@@ -16,7 +16,7 @@ export default function MainLayout() {
       content: "#smooth-content",
       smooth: 2,
       effects: true,
-      smoothTouch: 20,
+      smoothTouch: 2,
     });
 
     return () => {

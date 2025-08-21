@@ -9,7 +9,7 @@ export default function GoogleSVG() {
       viewBox="0 0 24 24"
       fill="none"
     >
-      <g clip-path="url(#clip0_17539_2888)">
+      <g clipPath="url(#clip0_17539_2888)">
         <mask
           id="mask0_17539_2888"
           maskUnits="userSpaceOnUse"
@@ -88,9 +88,9 @@ export default function GoogleSVG() {
           width="9.62067"
           height="8.76179"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -109,9 +109,9 @@ export default function GoogleSVG() {
           width="8.93635"
           height="7.04011"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -130,9 +130,9 @@ export default function GoogleSVG() {
           width="9.7779"
           height="7.80183"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -151,9 +151,9 @@ export default function GoogleSVG() {
           width="13.3195"
           height="12.1827"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -172,9 +172,9 @@ export default function GoogleSVG() {
           width="12.4031"
           height="5.26472"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -193,9 +193,9 @@ export default function GoogleSVG() {
           width="8.03608"
           height="9.04011"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -214,9 +214,9 @@ export default function GoogleSVG() {
           width="9.34203"
           height="8.16784"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -235,9 +235,9 @@ export default function GoogleSVG() {
           width="9.13557"
           height="6.34968"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -256,9 +256,9 @@ export default function GoogleSVG() {
           width="3.28169"
           height="5.56941"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -278,16 +278,16 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(9.03115 20.3612) rotate(-92.3894) scale(11.9623 17.9454)"
         >
-          <stop offset="0.141612" stop-color="#1ABD4D" />
-          <stop offset="0.247515" stop-color="#6EC30D" />
-          <stop offset="0.311547" stop-color="#8AC502" />
-          <stop offset="0.366013" stop-color="#A2C600" />
-          <stop offset="0.445673" stop-color="#C8C903" />
-          <stop offset="0.540305" stop-color="#EBCB03" />
-          <stop offset="0.615636" stop-color="#F7CD07" />
-          <stop offset="0.699345" stop-color="#FDCD04" />
-          <stop offset="0.771242" stop-color="#FDCE05" />
-          <stop offset="0.860566" stop-color="#FFCE0A" />
+          <stop offset="0.141612" stopColor="#1ABD4D" />
+          <stop offset="0.247515" stopColor="#6EC30D" />
+          <stop offset="0.311547" stopColor="#8AC502" />
+          <stop offset="0.366013" stopColor="#A2C600" />
+          <stop offset="0.445673" stopColor="#C8C903" />
+          <stop offset="0.540305" stopColor="#EBCB03" />
+          <stop offset="0.615636" stopColor="#F7CD07" />
+          <stop offset="0.699345" stopColor="#FDCD04" />
+          <stop offset="0.771242" stopColor="#FDCE05" />
+          <stop offset="0.860566" stopColor="#FFCE0A" />
         </radialGradient>
         <radialGradient
           id="paint1_radial_17539_2888"
@@ -297,8 +297,8 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(20.2149 6.39691) scale(8.46967 10.7093)"
         >
-          <stop offset="0.408458" stop-color="#FB4E5A" />
-          <stop offset="1" stop-color="#FF4540" />
+          <stop offset="0.408458" stopColor="#FB4E5A" />
+          <stop offset="1" stopColor="#FF4540" />
         </radialGradient>
         <radialGradient
           id="paint2_radial_17539_2888"
@@ -308,14 +308,14 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(15.5897 -1.65274) rotate(151.53) scale(13.4991 18.1109)"
         >
-          <stop offset="0.231273" stop-color="#FF4541" />
-          <stop offset="0.311547" stop-color="#FF4540" />
-          <stop offset="0.457516" stop-color="#FF4640" />
-          <stop offset="0.540305" stop-color="#FF473F" />
-          <stop offset="0.699346" stop-color="#FF5138" />
-          <stop offset="0.771242" stop-color="#FF5B33" />
-          <stop offset="0.860566" stop-color="#FF6C29" />
-          <stop offset="1" stop-color="#FF8C18" />
+          <stop offset="0.231273" stopColor="#FF4541" />
+          <stop offset="0.311547" stopColor="#FF4540" />
+          <stop offset="0.457516" stopColor="#FF4640" />
+          <stop offset="0.540305" stopColor="#FF473F" />
+          <stop offset="0.699346" stopColor="#FF5138" />
+          <stop offset="0.771242" stopColor="#FF5B33" />
+          <stop offset="0.860566" stopColor="#FF6C29" />
+          <stop offset="1" stopColor="#FF8C18" />
         </radialGradient>
         <radialGradient
           id="paint3_radial_17539_2888"
@@ -325,15 +325,15 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(12.4322 22.6033) rotate(-128.041) scale(34.9233 12.9595)"
         >
-          <stop offset="0.131546" stop-color="#0CBA65" />
-          <stop offset="0.209784" stop-color="#0BB86D" />
-          <stop offset="0.297297" stop-color="#09B479" />
-          <stop offset="0.396257" stop-color="#08AD93" />
-          <stop offset="0.477124" stop-color="#0AA6A9" />
-          <stop offset="0.568425" stop-color="#0D9CC6" />
-          <stop offset="0.667385" stop-color="#1893DD" />
-          <stop offset="0.768727" stop-color="#258BF1" />
-          <stop offset="0.858506" stop-color="#3086FF" />
+          <stop offset="0.131546" stopColor="#0CBA65" />
+          <stop offset="0.209784" stopColor="#0BB86D" />
+          <stop offset="0.297297" stopColor="#09B479" />
+          <stop offset="0.396257" stopColor="#08AD93" />
+          <stop offset="0.477124" stopColor="#0AA6A9" />
+          <stop offset="0.568425" stopColor="#0D9CC6" />
+          <stop offset="0.667385" stopColor="#1893DD" />
+          <stop offset="0.768727" stopColor="#258BF1" />
+          <stop offset="0.858506" stopColor="#3086FF" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_17539_2888"
@@ -343,14 +343,14 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(11.2041 2.16435) rotate(96.7579) scale(12.9421 18.2666)"
         >
-          <stop offset="0.366013" stop-color="#FF4E3A" />
-          <stop offset="0.457516" stop-color="#FF8A1B" />
-          <stop offset="0.540305" stop-color="#FFA312" />
-          <stop offset="0.615636" stop-color="#FFB60C" />
-          <stop offset="0.771242" stop-color="#FFCD0A" />
-          <stop offset="0.860566" stop-color="#FECF0A" />
-          <stop offset="0.915033" stop-color="#FECF08" />
-          <stop offset="1" stop-color="#FDCD01" />
+          <stop offset="0.366013" stopColor="#FF4E3A" />
+          <stop offset="0.457516" stopColor="#FF8A1B" />
+          <stop offset="0.540305" stopColor="#FFA312" />
+          <stop offset="0.615636" stopColor="#FFB60C" />
+          <stop offset="0.771242" stopColor="#FFCD0A" />
+          <stop offset="0.860566" stopColor="#FECF0A" />
+          <stop offset="0.915033" stopColor="#FECF08" />
+          <stop offset="1" stopColor="#FDCD01" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_17539_2888"
@@ -360,11 +360,11 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(9.06244 2.03076) rotate(132.723) scale(6.48852 18.336)"
         >
-          <stop offset="0.315904" stop-color="#FF4C3C" />
-          <stop offset="0.603818" stop-color="#FF692C" />
-          <stop offset="0.726837" stop-color="#FF7825" />
-          <stop offset="0.884534" stop-color="#FF8D1B" />
-          <stop offset="1" stop-color="#FF9F13" />
+          <stop offset="0.315904" stopColor="#FF4C3C" />
+          <stop offset="0.603818" stopColor="#FF692C" />
+          <stop offset="0.726837" stopColor="#FF7825" />
+          <stop offset="0.884534" stopColor="#FF8D1B" />
+          <stop offset="1" stopColor="#FF9F13" />
         </radialGradient>
         <radialGradient
           id="paint6_radial_17539_2888"
@@ -374,16 +374,16 @@ export default function GoogleSVG() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(15.5898 25.6522) rotate(-151.53) scale(13.4991 18.1109)"
         >
-          <stop offset="0.231273" stop-color="#0FBC5F" />
-          <stop offset="0.311547" stop-color="#0FBC5F" />
-          <stop offset="0.366013" stop-color="#0FBC5E" />
-          <stop offset="0.457516" stop-color="#0FBC5D" />
-          <stop offset="0.540305" stop-color="#12BC58" />
-          <stop offset="0.699346" stop-color="#28BF3C" />
-          <stop offset="0.771242" stop-color="#38C02B" />
-          <stop offset="0.860566" stop-color="#52C218" />
-          <stop offset="0.915033" stop-color="#67C30F" />
-          <stop offset="1" stop-color="#86C504" />
+          <stop offset="0.231273" stopColor="#0FBC5F" />
+          <stop offset="0.311547" stopColor="#0FBC5F" />
+          <stop offset="0.366013" stopColor="#0FBC5E" />
+          <stop offset="0.457516" stopColor="#0FBC5D" />
+          <stop offset="0.540305" stopColor="#12BC58" />
+          <stop offset="0.699346" stopColor="#28BF3C" />
+          <stop offset="0.771242" stopColor="#38C02B" />
+          <stop offset="0.860566" stopColor="#52C218" />
+          <stop offset="0.915033" stopColor="#67C30F" />
+          <stop offset="1" stopColor="#86C504" />
         </radialGradient>
         <linearGradient
           id="paint7_linear_17539_2888"
@@ -393,8 +393,8 @@ export default function GoogleSVG() {
           y2="21.5406"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0FBC5C" />
-          <stop offset="1" stop-color="#0CBA65" />
+          <stop stopColor="#0FBC5C" />
+          <stop offset="1" stopColor="#0CBA65" />
         </linearGradient>
         <clipPath id="clip0_17539_2888">
           <rect width="24" height="24" fill="white" />

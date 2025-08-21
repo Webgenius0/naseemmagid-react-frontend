@@ -13,8 +13,9 @@ export default function AsFeaturedIn() {
         <FeaturedMarquee
           title="As Featured In"
           items={featuredInData}
-          itemClassName="h-10 w-30 md:w-40 px-2"
+          itemClassName="h-16 w-30 md:w-40 px-2 object-contain"
           durationClassName="[--duration:20s] [--gap:2rem] md:[--gap:5rem]"
+          ItemClassName="py-9"
         />
       </Container>
     </div>

@@ -31,32 +31,6 @@ const statsData = [
   },
 ];
 
-export const AboutCountUpData = [
-  {
-    id: 1,
-    count: 160,
-    suffix: "+",
-    description: "Sales Done Successfully",
-  },
-  {
-    id: 2,
-    count: 95,
-    suffix: "%",
-    description: "Successful Delivery",
-  },
-  {
-    id: 3,
-    count: 12,
-    suffix: "+",
-    description: "Revenue Generated",
-  },
-  {
-    id: 4,
-    count: 48,
-    suffix: "+",
-    description: "Happy Customers",
-  },
-];
 
 export default function GrowGlobe() {
   return (
@@ -84,7 +58,7 @@ export default function GrowGlobe() {
       {/* card */}
       <div className="lg:absolute bottom-0 relative z-30 flex justify-center w-full">
         <Container>
-          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 -mt-50 md:-mt-80">
+          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 -mt-50 md:-mt-80 lg:-mt-0">
             {statsData.map((item, idx) => (
               <div key={idx} className="bg-white rounded-md cardBox p-6">
                 <h1 className="text-xl xl:text-2xl font-bold text-TertiaryBlack">
