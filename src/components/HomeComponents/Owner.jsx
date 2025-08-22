@@ -11,103 +11,29 @@ export default function Owner() {
 
           {/* Paragraphs */}
           <div className="">
-            <p>
-              We get it.
-              <br />
-              <br />
-              Running an online store is hard. Really freaking hard.
-              <br />
-              <br />
-              You’re probably wondering where your next sale will come from.
-              <br />
-              <br />
-              Refreshing Shopify like it owes you money.
-              <br />
-              <br />
-              Watching ad costs climb while your ROAS slides downhill.
-              <br />
-              <br />
-              And on top of that….
-            </p>
-
-            <p>
-              You’re juggling a bazillion “must-dos” every day.
-              <br />
-              <br />
-              Should you launch a new product? Run a flash sale? Redesign your
-              homepage?
-              <br />
-              <br />
-              What about TikTok ads? Errrrrrrbody’s talking about TikTok ads.
-              <br />
-              <br />
-              Or maybe you should post on Instagram five times a day? Send daily
-              emails? Hire that “guru” who keeps promising “easy wins”?
-              <br />
-              <br />
-              Somebody please pass me the aspirin.
-            </p>
-
-            <p>
-              Most eCom founders have a bad case of “shiny object syndrome”...
-              <br />
-              <br />
-              Mixed with a pinch of “I’ll just do it all myself”.
-              <br />
-              <br />
-              So you end up doing a little of this, a little of that…
-              <br />
-              <br />
-              And before you know it, you’re staring at your ad account
-              wondering where all your money went.
-            </p>
-
-            <p>
-              We call that a conversion graveyard.
-              <br />
-              <br />
-              Also known as a nightmare.
-              <br />
-              <br />
-              And we’d rather run out of coffee during Q4 than run a store that
-              way.
-              <br />
-              <br />
-              But this isn’t about us… it’s about you.
-            </p>
-
-            <p>
-              You’re here because, deep down, you know your store isn’t where
-              you want it to be.
-              <br />
-              <br />
-              Or maybe you’re doing well, but you want more.
-              <br />
-              <br />
-              More profit. More predictability. More sales without praying to
-              the algorithm gods.
-            </p>
-
-            {/* Subheading */}
-            <h3 className="font-bold mt-8">More freedom.</h3>
-            <br />
-            <br />
-            <p>
-              More time to actually enjoy the business you built.
-              <br />
-              <br />
-              More trips where you’re not glued to your phone checking orders.
-              <br />
-              <br />
-              Whatever “more” means for you…
-              <br />
-              <br />
-              It all starts with taking the next step below.
-            </p>
-            <br />
-            <br />
-            {/* Closing */}
-            <p className="font-bold">cue angels singing</p>
+            We get it. Running an online store is hard. Really freaking hard.
+            You’re probably wondering where your next sale will come from.
+            Refreshing Shopify like it owes you money. Watching ad costs climb
+            while your ROAS slides downhill. And on top of that… You’re juggling
+            a bazillion “must-dos” every day. Should you launch a new product?
+            Run a flash sale? Redesign your homepage? What about TikTok ads?
+            Errrrrybody’s talking about TikTok ads. Or maybe you should post on
+            Instagram five times a day? Send daily emails? Hire that “guru” who
+            keeps promising “easy wins”? Somebody please pass me the aspirin.
+            Most eCom founders have a bad case of “shiny object syndrome”… Mixed
+            with a pinch of “I’ll just do it all myself”. So you end up doing a
+            little of this, a little of that… And before you know it, you’re
+            staring at your ad account wondering where all your money went. We
+            call that a conversion graveyard. Also known as a nightmare. And
+            we’d rather run out of coffee during Q4 than run a store that way.
+            But this isn’t about us… it’s about you. You’re here because, deep
+            down, you know your store isn’t where you want it to be. Or maybe
+            you’re doing well, but you want more. More profit. More
+            predictability. More sales without praying to the algorithm gods.
+            More freedom. More time to actually enjoy the business you built.
+            More trips where you’re not glued to your phone checking orders.
+            Whatever “more” means for you… It all starts with taking the next
+            step below. cue angels singing
           </div>
         </div>
       </div>
