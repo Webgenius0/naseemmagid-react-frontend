@@ -7,6 +7,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+
+// faq data
 const items = [
   {
     title: "What does a digital marketing agency actually do?",
@@ -48,8 +50,7 @@ If you want to work with an agency that practices what it preaches, you should c
   },
   {
     title: "Whats involved with digital marketing?",
-    content:
-      `This is like asking “how long is a piece of string” because there’s no single answer. It depends on your business. At Nexal Media, we treat every brand differently because no two businesses, even in the same industry, are exactly alike.
+    content: `This is like asking “how long is a piece of string” because there’s no single answer. It depends on your business. At Nexal Media, we treat every brand differently because no two businesses, even in the same industry, are exactly alike.
 Let’s apply that to you and your biggest competitor. Sure, you might target the same audience and sell a similar product, but their website could be older or newer than yours, have more or fewer backlinks, or convert better or worse. They might benefit more from Google Ads while you might get bigger wins from a strong content and retargeting strategy. The differences go on and on.
 The key takeaway is that one size does not fit all. That’s why we create custom strategies for every client, tailored to their exact needs. Our goal is to skyrocket your online presence and we’ll do whatever it takes to make that happen.
 `,
