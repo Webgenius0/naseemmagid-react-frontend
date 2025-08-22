@@ -43,7 +43,7 @@ export default function HomeHero() {
       <Container>
         <div className="absolute inset-0 h-[100vh] xl:h-[650px] 2xl:h-[834px] flex flex-col justify-center items-center w-full mt-10 xl:mt-0">
           <h1 className="text-white text-[46px] md:text-[50px] xl:text-[64px] font-black max-w-[634px] text-center leading-[60px] xl:leading-[76.8px]">
-            LIKE AUTOPILOT FOR ECOM SALES
+            LIKE ROCKET FUEL FOR BUSINESS
           </h1>
           <p className=" text-lg md:text-xl xl:text-2xl font-light text-white mt-6 mb-12 max-w-[634px] text-center mx-auto leading-[30px] xl:leading-[36px]">
             Growing an eCom brand is hard. We make it easier, more predictable,
