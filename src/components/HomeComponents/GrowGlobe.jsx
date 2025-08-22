@@ -24,8 +24,8 @@ const statsData = [
     desc: "Successfully completed over 3,500 projects across industries.",
   },
   {
-    title: "Global Reach",
-    value: 50,
+    title: "Battle Tested",
+    value: 184,
     suffix: "+",
     desc: "Serving clients in more than 50 countries worldwide.",
   },
