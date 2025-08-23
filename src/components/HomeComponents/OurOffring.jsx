@@ -34,18 +34,29 @@ export default function OurOffering() {
           {/* Badge */}
           <div className="absolute -top-15 left-1/2 -translate-x-1/2 z-10">
             <div className="flex h-[210px] w-[210px] items-center justify-center rounded-full bg-[#1C1D20]">
-              <span className="text-[150px] md:text-[180px] font-bold text-PrimaryColor">N</span>
+              <span className="text-[150px] md:text-[180px] font-bold text-PrimaryColor">
+                N
+              </span>
             </div>
           </div>
 
           {/* Content */}
-          <article className=" py-[64px] px-10 md:p-[64px] pt-6 mt-40 text-center text-white">
-            <h2 className="text-2xl font-bold">HIRE US TO DO IT FOR YOU</h2>
-            <h1 className=" text-[60px] md:text-[96px] font-black">AGENCY</h1>
+          <article className=" py-[64px] px-10 md:p-[64px] pt-6 mt-40  text-white">
+            <h2 className="text-2xl font-bold tracking-[0.1em] text-PrimaryColor text-center">
+              HIRE US TO DO IT FOR YOU
+            </h2>
+            <h1 className=" text-[60px] md:text-[96px] font-black text-center">
+              AGENCY
+            </h1>
             <p className="mt-2 text-lg font-light">
-              Managed and "done-for-you" digital marketing services for
-              small-to-large companies looking for hyper-growth. And yes, we
-              guarantee.
+              <span className="text-PrimaryColor">Man</span>aged and
+              "done-for-you" digital marketing
+              <br />
+              <span className="text-PrimaryColor">serv</span>ices for
+              small-to-large companies looking for
+              <br />
+              <span className="text-PrimaryColor"> hy</span>per-growth. And yes,
+              we guarantee.
             </p>
 
             <button className="group/button relative mt-6 inline-flex w-full items-center justify-center overflow-hidden rounded-md bg-PrimaryColor px-8 py-4 text-xl font-semibold text-TertiaryBlack transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-lime-500/30">

@@ -6,39 +6,33 @@ import { Link } from "react-router-dom";
 const reviews = [
   {
     name: "Jack",
-    username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    img: "https://i.pravatar.cc/150?img=11",
   },
   {
     name: "Jill",
-    username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    img: "https://i.pravatar.cc/150?img=12",
   },
   {
     name: "John",
-    username: "@john",
     body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
-    img: "https://avatar.vercel.sh/john",
+    img: "https://i.pravatar.cc/150?img=13",
   },
   {
     name: "Jane",
-    username: "@jane",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    img: "https://i.pravatar.cc/150?img=14",
   },
   {
     name: "Jenny",
-    username: "@jenny",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: "https://i.pravatar.cc/150?img=15",
   },
   {
     name: "James",
-    username: "@james",
     body: "Loved working with Nas — super organized and always on point with creative ideas. Made the whole process way less stressful.",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://i.pravatar.cc/150?img=16",
   },
 ];
 
@@ -50,7 +44,7 @@ function StarRating({ rating = 4, totalStars = 5 }) {
         <Star
           key={i}
           className={cn(
-            "h-5 md:h-6 w-5 md:w-6",
+            "h-5 md:h-5 w-5 md:w-5",
             rating > i ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
           )}
         />
@@ -59,7 +53,7 @@ function StarRating({ rating = 4, totalStars = 5 }) {
   );
 }
 
-const ReviewCard = ({ img, name, username, body, rating = 4 }) => {
+const ReviewCard = ({ img, name, body, rating = 4 }) => {
   return (
     <figure
       className={cn(
@@ -82,8 +76,7 @@ const ReviewCard = ({ img, name, username, body, rating = 4 }) => {
           <div>
             <figcaption className="text-lg font-medium dark:text-white">
               {name}
-            </figcaption>
-            <p className="text-xs font-medium dark:text-white/40">{username}</p>
+            </figcaption>{" "}
           </div>
         </div>
 

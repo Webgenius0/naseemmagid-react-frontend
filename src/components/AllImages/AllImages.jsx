@@ -18,6 +18,10 @@ import logo10 from "../../assets/images/logo10.png";
 import logo11 from "../../assets/images/logo11.png";
 import logo12 from "../../assets/images/logo12.png";
 import logo13 from "../../assets/images/logo13.png";
+import logo14 from "../../assets/images/logo14.webp";
+import logo15 from "../../assets/images/logo15.png";
+import logo17 from "../../assets/images/logo17.png";
+import logo16 from "../../assets/images/logo16.webp";
 
 export const AllImages = {
   heroVideo,
@@ -40,4 +44,8 @@ export const AllImages = {
   logo11,
   logo12,
   logo13,
+  logo14,
+  logo15,
+  logo16,
+  logo17,
 };

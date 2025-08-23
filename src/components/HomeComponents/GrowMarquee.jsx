@@ -15,7 +15,7 @@ export default function GrowMarquee() {
       <Container>
         <FeaturedMarquee
           items={featuredInData}
-          itemClassName="h-10 w-30 md:w-40 px-2 object-contain"
+          itemClassName="h-16 w-30 md:w-40 px-2 object-contain"
           duration="20s"
           gap="5rem"
           durationClassName="[--duration:25s]  [--gap:2rem] md:[--gap:5rem]"
@@ -24,13 +24,13 @@ export default function GrowMarquee() {
         <FeaturedMarquee
           reverse
           items={brandExperienceData}
-          itemClassName="h-10 w-30 md:w-40 px-2 object-contain"
+          itemClassName="h-16 w-30 md:w-40 px-2 object-contain"
           durationClassName="[--duration:20s]  [--gap:2rem] md:[--gap:5rem]"
           ItemClassName=" py-5 md:py-6 lg:py-9"
         />
         <FeaturedMarquee
           items={growMarqueedata}
-          itemClassName="h-10 w-30 md:w-40 px-2 object-contain"
+          itemClassName="h-16 w-30 md:w-40 px-2 object-contain"
           durationClassName="[--duration:15s]  [--gap:2rem] md:[--gap:5rem]"
           ItemClassName=" py-5 md:py-6 lg:py-9"
         />
