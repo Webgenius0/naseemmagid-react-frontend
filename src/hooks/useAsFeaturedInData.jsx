@@ -25,16 +25,21 @@ export default function useAsFeaturedInData() {
     },
     {
       id: 5,
+      name: "Airbnb",
+      svg: AllImages.logo14,
+    },
+    {
+      id: 6,
       name: "Tina",
       svg: AllImages.logo10,
     },
     {
-      id: 6,
+      id: 7,
       name: "Stackoverflow",
       svg: AllImages.logo11,
     },
     {
-      id: 7,
+      id: 8,
       name: "mistral",
       svg: AllImages.logo12,
     },

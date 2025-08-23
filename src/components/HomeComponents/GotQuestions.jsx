@@ -12,9 +12,22 @@ import {
 const items = [
   {
     title: "What does a digital marketing agency actually do?",
-    content: `A great digital marketing partner takes the time to truly understand your business. At Nexal Media, we analyze your website traffic, identify the best platforms to invest in, and continually refine your strategy to ensure you’re striking the right balance between ad spend and the results you’re seeing.
-But we don’t stop there. Unlike most agencies, we’re not just here to “maintain” your marketing. Our mission is to outsmart your competitors, turn more of your visitors into paying customers, and deliver the highest ROI possible with strategies proven to work for eCommerce brands.
-`,
+    content: (
+      <div className="">
+        A great digital marketing partner takes the time to truly understand
+        your business. At Nexal Media, we analyze your website traffic, identify
+        the best platforms to invest in, and continually refine your strategy to
+        ensure you’re striking the right balance between ad spend and the
+        results you’re seeing.
+        <br />
+        <br />
+        But we don’t stop there. Unlike most agencies, we’re not just here to
+        “maintain” your marketing. Our mission is to outsmart your competitors,
+        turn more of your visitors into paying customers, and deliver the
+        highest ROI possible with strategies proven to work for eCommerce
+        brands.
+      </div>
+    ),
   },
   {
     title: "How do I know that I will get a return on my investment?",
@@ -23,25 +36,61 @@ But we don’t stop there. Unlike most agencies, we’re not just here to “mai
   },
   {
     title: "Do you work with big or small companies?",
-    content: `Are you ready to scale your store and dominate your market? Nexal Media can work with you.
-Want to plug into a team of eCommerce growth experts, marketers, ad strategists, designers, and developers who know how to hit your sales targets and deliver the kind of ROI that makes you want to shout about it? We can work with you.
-Do you understand the power of turning $1 into $5 (or more)? We can work with you.
-It doesn’t matter if you’re a growing Shopify store or an established eCommerce brand. Our clients range from small businesses with just a few team members to large online retailers with hundreds of staff, serving customers all over the world.
-`,
+    content: (
+      <div className="">
+        Are you ready to scale your store and dominate your market? Nexal Media
+        can work with you.
+        <br />
+        <br />
+        Want to plug into a team of eCommerce growth experts, marketers, ad
+        strategists, designers, and developers who know how to hit your sales
+        targets and deliver the kind of ROI that makes you want to shout about
+        it? We can work with you.
+        <br />
+        <br />
+        Do you understand the power of turning $1 into $5 (or more)? We can work
+        with you.
+        <br />
+        <br /> It doesn’t matter if you’re a growing Shopify store or an
+        established eCommerce brand. Our clients range from small businesses
+        with just a few team members to large online retailers with hundreds of
+        staff, serving customers all over the world.
+      </div>
+    ),
   },
   {
-    title: "Why is nexal media the best digital marketing agency?",
-    content: ` Why are burritos delicious? Why is water wet? No, but seriously. Instead of using this section to hit you with a bunch of hype, let’s just say this… marketers can talk all day, but numbers tell the truth.
-So instead of trying to convince you we’re the best eCommerce growth partner, here are the stats:
-•	$1.8 billion in sales generated for clients
-•	184 different industries and niches served
-•	1,034 reviews (average of 4.7 stars)
-•	Ranked among the fastest growing companies in our category
-•	#1 fastest growing agency 3 years in a row
-Most marketing agencies talk a big game, but when you look closer, they don’t even use the strategies they sell, whether it’s Facebook ads, Google ads, or funnels, to grow their own business.
-That’s your sign to run.
-If you want to work with an agency that practices what it preaches, you should check out our reviews and see what real eCommerce brands say about working with Nexal Media.
-`,
+    title: "Why is Nexal Media the best digital marketing agency?",
+    content: (
+      <div>
+        <p>
+          Why are burritos delicious? Why is water wet? No, but seriously.
+          Instead of using this section to hit you with a bunch of hype, let’s
+          just say this… marketers can talk all day, but numbers tell the truth.
+        </p>
+        <p className="mt-2">
+          So instead of trying to convince you we’re the best eCommerce growth
+          partner, here are the stats:
+        </p>
+        <ul className="list-disc pl-6 mt-2 space-y-1">
+          <li>$1.8 billion in sales generated for clients</li>
+          <li>184 different industries and niches served</li>
+          <li>1,034 reviews (average of 4.7 stars)</li>
+          <li>Ranked among the fastest growing companies in our category</li>
+          <li>#1 fastest growing agency 3 years in a row</li>
+        </ul>
+        <p className="mt-4">
+          Most marketing agencies talk a big game, but when you look closer,
+          they don’t even use the strategies they sell, whether it’s Facebook
+          ads, Google ads, or funnels, to grow their own business. That’s your
+          sign to run.
+        </p>
+        <p className="mt-2">
+          If you want to work with an agency that practices what it preaches,
+          you should check out our reviews and see what real eCommerce brands
+          say about working with Nexal Media.
+        </p>
+      </div>
+    ),
   },
   {
     title: "Can you guarantee results?",
@@ -50,10 +99,14 @@ If you want to work with an agency that practices what it preaches, you should c
   },
   {
     title: "Whats involved with digital marketing?",
-    content: `This is like asking “how long is a piece of string” because there’s no single answer. It depends on your business. At Nexal Media, we treat every brand differently because no two businesses, even in the same industry, are exactly alike.
-Let’s apply that to you and your biggest competitor. Sure, you might target the same audience and sell a similar product, but their website could be older or newer than yours, have more or fewer backlinks, or convert better or worse. They might benefit more from Google Ads while you might get bigger wins from a strong content and retargeting strategy. The differences go on and on.
+    content: (
+      <div className="">
+        This is like asking “how long is a piece of string” because there’s no single answer. It depends on your business. At Nexal Media, we treat every brand differently because no two businesses, even in the same industry, are exactly alike.
+        <br /><br />
+Let’s apply that to you and your biggest competitor. Sure, you might target the same audience and sell a similar product, but their website could be older or newer than yours, have more or fewer backlinks, or convert better or worse. They might benefit more from Google Ads while you might get bigger wins from a strong content and retargeting strategy. The differences go on and on.<br /><br />
 The key takeaway is that one size does not fit all. That’s why we create custom strategies for every client, tailored to their exact needs. Our goal is to skyrocket your online presence and we’ll do whatever it takes to make that happen.
-`,
+      </div>
+    ),
   },
 ];
 

@@ -19,7 +19,7 @@ export default function BrandExperience() {
               >
                 <img
                   src={review.svg}
-                  className="h-16 w-30 md:w-40 px-2 object-contain"
+                   className={`object-contain ${review.className || "h-16 w-30 md:w-40 px-2"}`}
                   alt={`${review.name}`}
                 />
               </div>
