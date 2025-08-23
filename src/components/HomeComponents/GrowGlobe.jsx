@@ -7,26 +7,27 @@ import CountUp from "../Common/CountUp";
 const statsData = [
   {
     title: "Revenue Generated",
+    prefix: "$",
     value: 1.8,
     suffix: "B",
     desc: "We let our numbers do the talking. $1.8 Billion in reported client revenue and counting.",
   },
   {
     title: "Clients Served",
-    value: 1200,
-    suffix: "+",
+    value: 200,
+    suffix: "K",
     desc: "Trusted by over 1200 global clients to grow their digital presence.",
   },
   {
     title: "Projects Delivered",
-    value: 3.5,
-    suffix: "+",
+    value: 136,
+    suffix: "",
     desc: "Successfully completed over 3,500 projects across industries.",
   },
   {
     title: "Battle Tested",
     value: 184,
-    suffix: "+",
+    suffix: "",
     desc: "Serving clients in more than 50 countries worldwide.",
   },
 ];
@@ -66,8 +67,9 @@ export default function GrowGlobe() {
                 </h1>
                 <hr className="bg-PrimaryColor h-[8px] my-3" />
                 <div className="count-up-text text-[40px] font-bold text-TertiaryBlack mb-3">
-                  $<CountUp
+                  <CountUp
                   from={0}
+                  prefix={item.prefix}
                   to={item.value}
                   duration={2}
                   suffix={item.suffix}

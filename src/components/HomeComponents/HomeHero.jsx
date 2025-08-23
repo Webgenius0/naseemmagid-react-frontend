@@ -43,11 +43,10 @@ export default function HomeHero() {
       <Container>
         <div className="absolute inset-0 h-[100vh] xl:h-[650px] 2xl:h-[834px] flex flex-col justify-center items-center w-full mt-10 xl:mt-0">
           <h1 className="text-white text-[46px] md:text-[50px] xl:text-[64px] font-black max-w-[634px] text-center leading-[60px] xl:leading-[76.8px]">
-            LIKE ROCKET FUEL FOR BUSINESS
+            LIKE AUTOPILOT FOR ECOM SALES
           </h1>
           <p className=" text-lg md:text-xl xl:text-2xl font-light text-white mt-6 mb-12 max-w-[634px] text-center mx-auto leading-[30px] xl:leading-[36px]">
-            Growing an eCom brand is hard. We make it easier, more predictable,
-            less stressful, and more fun.
+            Growing an eCom brand is hard. We make it easier, more predictable, less stressful, and more fun.
           </p>
           <div className="flex flex-col sm:flex-row items-center w-full max-w-[634px] px-4 gap-3 sm:gap-0">
             <input
@@ -63,6 +62,7 @@ export default function HomeHero() {
               <ArrowRight className="fill-white w-5 h-5 sm:w-6 sm:h-6 transition-transform group-hover:translate-x-2" />
             </button>
           </div>
+          <p className="mt-6 text-white/60 font-light text-center">'But it's 100% legal (pinky promise)</p>
         </div>
       </Container>
     </div>
