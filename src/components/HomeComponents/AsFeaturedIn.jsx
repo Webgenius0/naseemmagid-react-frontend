@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../Common/Container";
 import useAsFeaturedInData from "@/hooks/useAsFeaturedInData";
-import { Marquee } from "../magicui/marquee";
 import FeaturedMarquee from "../Common/FeaturedMarquee";
 
 export default function AsFeaturedIn() {
