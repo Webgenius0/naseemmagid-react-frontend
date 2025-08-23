@@ -7,7 +7,7 @@ export default function Owner() {
       <div className="max-w-[808px] mx-auto px-4">
         <div className="leading-[30px] text-lg">
           {/* Heading */}
-          <h2 className="font-bold mb-6"></h2>
+          <h2 className="font-bold mb-6">Dear Ecom owner,</h2>
 
           {/* Paragraphs */}
           <div className="">
