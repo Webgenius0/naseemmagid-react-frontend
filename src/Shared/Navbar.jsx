@@ -53,7 +53,7 @@ export default function Navbar() {
                 <GrClose className="w-6 h-6" />
               </button>
 
-              <div className="flex flex-col items-center justify-center min-h-screen font-Lilita gap-6 text-6xl">
+              <div className="flex flex-col items-center justify-center min-h-[90vh] font-Lilita gap-6 text-6xl">
                 <FlipLink href="#">AGENCY</FlipLink>
                 <FlipLink href="#">COURSES</FlipLink>
                 <FlipLink href="#">SEO</FlipLink>
