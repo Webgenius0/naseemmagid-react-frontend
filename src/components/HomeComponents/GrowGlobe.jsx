@@ -10,25 +10,25 @@ const statsData = [
     prefix: "$",
     value: 1.8,
     suffix: "B",
-    desc: "We let our numbers do the talking. $1.8 Billion in reported client revenue and counting.",
+    desc: "We let our numbers do the talking. 1.8 Billion in reported client revenue and counting.",
   },
   {
-    title: "Clients Served",
-    value: 200,
+    title: "Size Of Our Platform",
+    value: 80,
     suffix: "K",
-    desc: "Trusted by over 1200 global clients to grow their digital presence.",
+    desc: "80,000 customers and counting make up our diverse and ever growing platform.",
   },
   {
-    title: "Projects Delivered",
-    value: 136,
+    title: "Our Reach",
+    value: 84,
     suffix: "",
-    desc: "Successfully completed over 3,500 projects across industries.",
+    desc: "Serving customers in over 84 different countries.",
   },
   {
     title: "Battle Tested",
     value: 184,
     suffix: "",
-    desc: "Serving clients in more than 50 countries worldwide.",
+    desc: "Our strategies have been battle tested in over 184 different industries and niches.",
   },
 ];
 

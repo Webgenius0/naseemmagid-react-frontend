@@ -5,23 +5,38 @@ import { Star } from "lucide-react";
 
 function StarRating({ rating }) {
   return (
-    <div className="flex space-x-1 mb-1">
-      {[1, 2, 3, 4, 5].map((value) => (
-        <Star
-          key={value}
-          className={`h-6 w-6 ${
-            rating >= value
-              ? "text-yellow-400 fill-yellow-400"
-              : "text-gray-300"
-          }`}
-        />
-      ))}
+    <div className="flex space-x-1">
+      {[1, 2, 3, 4, 5].map((value) => {
+        if (rating >= value) {
+          return (
+            <Star
+              key={value}
+              className="h-6 w-6 text-yellow-400 fill-yellow-400"
+            />
+          );
+        } else if (rating + 1 > value) {
+          return (
+            <div key={value} className="relative h-6 w-6">
+              <Star className="h-6 w-6 text-gray-300" />
+
+              <Star
+                className="absolute top-0 left-0 h-6 w-6 text-yellow-400 fill-yellow-400"
+                style={{
+                  clipPath: "inset(0 50% 0 0)",
+                }}
+              />
+            </div>
+          );
+        } else {
+          return <Star key={value} className="h-6 w-6 text-gray-300" />;
+        }
+      })}
     </div>
   );
 }
 
 export default function OurOffering() {
-  const rating = 4;
+  const rating = 4.5;
 
   return (
     <section className="relative w-full bg-[#2e302e] py-[80px] md:py-[130px]">
@@ -69,8 +84,8 @@ export default function OurOffering() {
             {/* Rating */}
             <div className="mt-6 flex flex-col md:flex-row items-center justify-between gap-2">
               <StarRating rating={rating} />
-              <span className="text-2xl font-light">
-                5 stars out of 83 reviews
+              <span className="text-xl font-light">
+                4.5 stars out of 383 reviews
               </span>
             </div>
           </article>
