@@ -112,9 +112,9 @@ The key takeaway is that one size does not fit all. That’s why we create custo
 
 export default function GotQuestions() {
   return (
-    <div className="mt-[20px] pb-[40px] lg:pb-[100px]">
+    <div className="mt-[40px] pb-[40px] lg:pb-[100px]">
       <Container>
-        <div className="text-[45px] md:text-[50px] lg:text-[64px] text-TertiaryBlack font-black text-center leading-14 lg:leading-[76.8px]">
+        <div className="text-[30px] md:text-[50px] lg:text-[64px] text-TertiaryBlack font-black text-center leading-10 lg:leading-[76.8px]">
           YOU'VE GOT QUESTIONS,
           <br /> WE'VE GOT ANSWERS.
         </div>
@@ -130,7 +130,7 @@ export default function GotQuestions() {
                 value={`item-${index}`}
                 className="border-none rounded-md px-4 bg-secondary "
               >
-                <AccordionTrigger className="text-xl text-TertiaryBlack font-semibold">
+                <AccordionTrigger className="text-lg md:text-xl text-TertiaryBlack font-semibold">
                   {title}
                 </AccordionTrigger>
                 <AccordionContent className="text-[#343E56] text-base font-normal">
