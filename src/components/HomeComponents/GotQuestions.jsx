@@ -112,7 +112,7 @@ The key takeaway is that one size does not fit all. That’s why we create custo
 
 export default function GotQuestions() {
   return (
-    <div className="mt-[40px] lg:mt-[80px] pb-[40px] lg:pb-[100px]">
+    <div className="mt-[20px] pb-[40px] lg:pb-[100px]">
       <Container>
         <div className="text-[45px] md:text-[50px] lg:text-[64px] text-TertiaryBlack font-black text-center leading-14 lg:leading-[76.8px]">
           YOU'VE GOT QUESTIONS,

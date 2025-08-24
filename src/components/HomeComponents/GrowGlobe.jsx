@@ -35,7 +35,7 @@ const statsData = [
 
 export default function GrowGlobe() {
   return (
-    <div className="bg-[#f0f9e5] relative w-full pt-[120px] md:pt-[212px]">
+    <div className="bg-[#f0f9e5] relative w-full pt-[120px] md:pt-[212px] ">
       <Container>
         <div className="max-w-[659px] mx-auto leading-[76.8px]">
           <h1 className=" text-[40px] md:text-[56px] lg:text-[64px] leading-12 md:leading-none text-center font-black text-TertiaryBlack">
@@ -87,7 +87,7 @@ export default function GrowGlobe() {
       <div className="pointer-events-none z-25 left-0 w-full h-[200px] earthGradient absolute bottom-30 lg:bottom-0"></div>
 
       {/* img */}
-      <div className="absolute top-0 -left-1">
+      <div className="absolute -top-1 -left-1 ">
         <img
           src={AllImages.GrowGlobe}
           className="w-[300px] md:w-[500px] lg:w-[600px]  xl:w-[900px] 2xl:w-[1200px] h-full"

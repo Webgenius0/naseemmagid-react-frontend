@@ -19,9 +19,9 @@ export default function FeaturedMarquee({
 
         <div className={`relative ${ItemClassName}`}>
           <Marquee reverse={reverse} className={durationClassName}>
-            {items.map((item) => (
+            {items.map((item , index) => (
               <div
-                key={item.id || item.name}
+                key={index}
                 className="flex items-center justify-between w-full"
               >
                 <img src={item.svg} className={itemClassName} alt={item.name} />
