@@ -6,10 +6,10 @@ export default function ThePoweris() {
     <div className="py-[80px] lg:py-[130px] bg-[#202020]">
       <Container>
         <div className="flex flex-col justify-center max-w-[820px] mx-auto">
-          <h1 className="text-PrimaryColor text-2xl font-semibold text-center">
+          <h1 className="text-PrimaryColor text-2xl font-semibold text-center ">
             NO MORE HOPING-AND PRAYING
           </h1>
-          <h1 className="text-[50px] md:text-[80px] lg:text-[96px] font-black text-white leading-14 md:leading-[90px] lg:leading-[115.2px] mt-5 md:mt-0 text-center">
+          <h1 className="text-[50px] lg:text-[60px] xl:text-[80px] 2xl:text-[96px] font-black text-white leading-14 lg:leading-[60px] xl:leading-[90px] 2xl:leading-[115.2px] mt-5 text-center">
             THE POWERIS IN THE PROCESS
           </h1>
           <p className="text-base md:text-lg xl:text-2xl font-light text-[#C1C4CC] mb-6 mt-12 leading-8 lg:leading-[36px]">

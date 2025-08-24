@@ -48,10 +48,10 @@ export default function HomeHero() {
           <p className=" text-lg md:text-xl xl:text-2xl font-light text-white mt-6 mb-12 max-w-[634px] text-center mx-auto leading-[30px] xl:leading-[36px]">
             Growing an eCom brand is hard. We make it easier, more predictable, less stressful, and more fun.
           </p>
-          <div className="flex flex-col sm:flex-row items-center w-full max-w-[634px] px-4 gap-3 sm:gap-0">
+          <div className="flex flex-col sm:flex-row items-center w-full max-w-[680px] px-4 gap-3 sm:gap-0">
             <input
               type="text"
-              placeholder="Enter your email here and we'll send you somatic..."
+              placeholder="Enter your email here and we’ll send you some magic…"
               className="lg:py-4 lg:px-6 py-3 px-6  bg-white outline-0 rounded-full sm:rounded-l-full sm:rounded-r-none w-full text-base sm:text-lg"
             />
             <button

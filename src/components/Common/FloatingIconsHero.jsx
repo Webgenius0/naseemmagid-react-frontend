@@ -108,7 +108,7 @@ const FloatingIconsHero = React.forwardRef(
         <div className="absolute inset-0 w-full h-full">
           {icons.map((iconData, index) => (
             <Icon
-              key={iconData.id}
+              key={index}
               mouseX={mouseX}
               mouseY={mouseY}
               iconData={iconData}

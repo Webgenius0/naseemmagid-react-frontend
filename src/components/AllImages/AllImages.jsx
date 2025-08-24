@@ -22,6 +22,36 @@ import logo14 from "../../assets/images/logo14.webp";
 import logo15 from "../../assets/images/logo15.png";
 import logo17 from "../../assets/images/logo17.png";
 import logo16 from "../../assets/images/logo16.webp";
+import avater1 from "../../assets/images/avater1.png";
+import avater2 from "../../assets/images/avater2.png";
+import avater3 from "../../assets/images/avater3.png";
+import avater4 from "../../assets/images/avater4.png";
+import avater5 from "../../assets/images/avater5.png";
+import avater6 from "../../assets/images/avater6.png";
+import avater7 from "../../assets/images/avater7.png";
+import avater8 from "../../assets/images/avater8.png";
+import avater9 from "../../assets/images/avater9.png";
+import avater10 from "../../assets/images/avater10.png";
+import avater11 from "../../assets/images/avater11.png";
+import avater12 from "../../assets/images/avater12.png";
+import avater13 from "../../assets/images/avater13.png";
+import avater14 from "../../assets/images/avater14.png";
+import logo20 from "../../assets/images/logo20.png";
+import logo21 from "../../assets/images/logo21.png";
+import logo22 from "../../assets/images/logo22.png";
+import logo23 from "../../assets/images/logo23.png";
+import logo24 from "../../assets/images/logo24.png";
+import logo25 from "../../assets/images/logo25.png";
+import logo26 from "../../assets/images/logo26.png";
+import logo27 from "../../assets/images/logo27.png";
+import logo28 from "../../assets/images/logo28.png";
+import logo29 from "../../assets/images/logo29.png";
+import logo30 from "../../assets/images/logo30.png";
+import logo31 from "../../assets/images/logo31.png";
+import logo32 from "../../assets/images/logo32.png";
+import logo33 from "../../assets/images/logo33.png";
+import logo34 from "../../assets/images/logo34.png";
+import logo35 from "../../assets/images/logo35.png";
 
 export const AllImages = {
   heroVideo,
@@ -48,4 +78,34 @@ export const AllImages = {
   logo15,
   logo16,
   logo17,
+  avater1,
+  avater2,
+  avater3,
+  avater4,
+  avater5,
+  avater6,
+  avater7,
+  avater8,
+  avater9,
+  avater10,
+  avater11,
+  avater12,
+  avater13,
+  avater14,
+  logo20,
+  logo21,
+  logo22,
+  logo23,
+  logo24,
+  logo25,
+  logo26,
+  logo27,
+  logo28,
+  logo29,
+  logo30,
+  logo31,
+  logo32,
+  logo33,
+  logo34,
+  logo35,
 };
