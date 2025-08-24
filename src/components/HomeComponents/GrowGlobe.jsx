@@ -57,9 +57,9 @@ export default function GrowGlobe() {
       </div>
 
       {/* card */}
-      <div className="lg:absolute bottom-0 relative z-30 flex justify-center w-full">
+      <div className="xl:absolute bottom-0 relative z-30 flex justify-center w-full">
         <Container>
-          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 -mt-50 md:-mt-80 lg:-mt-0">
+          <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-4 -mt-50 md:-mt-80 xl:-mt-0">
             {statsData.map((item, idx) => (
               <div key={idx} className="bg-white rounded-md cardBox p-6">
                 <h1 className="text-xl xl:text-2xl font-bold text-TertiaryBlack">

@@ -45,7 +45,7 @@ export default function OurOffering() {
           OUR OFFERING
         </h1>
 
-        <div className="max-w-[559px] mx-auto mt-8 relative our-Offringbg rounded-xl overflow-hidden">
+        <div className="md:max-w-[559px] mx-auto mt-8 relative our-Offringbg rounded-xl overflow-hidden">
           {/* Badge */}
           <div className="absolute -top-15 left-1/2 -translate-x-1/2 z-10">
             <div className="flex h-[210px] w-[210px] items-center justify-center rounded-full bg-[#1C1D20]">
