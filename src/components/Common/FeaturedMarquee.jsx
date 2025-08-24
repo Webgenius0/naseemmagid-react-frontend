@@ -8,7 +8,7 @@ export default function FeaturedMarquee({
   itemClassName,
   reverse,
   durationClassName,
-  ItemClassName,
+  ItemDivClassName,
 }) {
   return (
     <div>
@@ -17,14 +17,14 @@ export default function FeaturedMarquee({
           <h1 className="text-center text-2xl font-semibold">{title}</h1>
         ) : null}
 
-        <div className={`relative ${ItemClassName}`}>
+        <div className={`relative ${ItemDivClassName}`}>
           <Marquee reverse={reverse} className={durationClassName}>
-            {items.map((item) => (
+            {items.map((item , index) => (
               <div
-                key={item.id || item.name}
+                key={index}
                 className="flex items-center justify-between w-full"
               >
-                <img src={item.svg} className={itemClassName} alt={item.name} />
+                <img src={item.svg} className={`object-contain ${itemClassName} ${item.className || "h-16 w-30 md:w-40 px-2"}`} alt={item.name} />
               </div>
             ))}
           </Marquee>

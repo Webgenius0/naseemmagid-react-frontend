@@ -3,17 +3,6 @@ import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectValue,
-} from "@/components/ui/select";
-import { cn } from "@/lib/utils";
-import * as SelectPrimitive from "@radix-ui/react-select";
-import { ChevronDown } from "lucide-react";
 import GoogleSVG from "@/components/SVG/GoogleSVG";
 import KeapSVG from "@/components/SVG/KeapSVG";
 import KalviyoSVG from "@/components/SVG/KalviyoSVG";
@@ -35,28 +24,7 @@ export default function Footer() {
               <FaFacebookF className="text-PrimaryColor w-6 h-6 cursor-pointer" />
               <FaInstagram className="text-PrimaryColor w-6 h-6 cursor-pointer" />
             </div>
-            <div className="mt-6">
-              <Select>
-                <SelectPrimitive.Trigger
-                  className={cn(
-                    "flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 text-white",
-                    "w-44"
-                  )}
-                >
-                  <SelectValue placeholder="Select a country" />
-                  <SelectPrimitive.Icon asChild>
-                    <ChevronDown className="h-4 w-4 opacity-50" />
-                  </SelectPrimitive.Icon>
-                </SelectPrimitive.Trigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectItem value="United States">United States</SelectItem>
-                    <SelectItem value="Bangladesh">Bangladesh</SelectItem>
-                    <SelectItem value="Usa">USA</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-            </div>
+            
           </div>
           {/* --------- */}
           <div className="xl:col-span-8 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4 text-white">

@@ -7,14 +7,14 @@ export default function BrandExperience() {
   const { brandExperienceData } = useBrandExperienceData();
 
   return (
-    <div className="py-[60px] md:py-[130px] ">
+    <div className="pt-[60px] md:pt-[130px] ">
       <Container>
         <h1 className="text-center text-2xl font-semibold">Brand Experience</h1>
         <div className="relative py-9">
           <Marquee className="[--duration:20s] [--gap:2rem] md:[--gap:5rem]">
-            {brandExperienceData.map((review) => (
+            {brandExperienceData.map((review,index) => (
               <div
-                key={review.id}
+                key={index}
                 className="flex items-center justify-between w-full "
               >
                 <img

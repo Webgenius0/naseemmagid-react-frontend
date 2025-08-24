@@ -45,8 +45,8 @@ const instagram = (props) => (
         r="133.147"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset=".09" stop-color="#fa8f21"></stop>
-        <stop offset=".78" stop-color="#d82d7e"></stop>
+        <stop offset=".09" stopColor="#fa8f21"></stop>
+        <stop offset=".78" stopColor="#d82d7e"></stop>
       </radialGradient>
       <radialGradient
         id="b"
@@ -55,8 +55,8 @@ const instagram = (props) => (
         r="104.938"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"></stop>
-        <stop offset="1" stop-color="#8c3aaa"></stop>
+        <stop offset=".64" stopColor="#8c3aaa" stopOpacity="0"></stop>
+        <stop offset="1" stopColor="#8c3aaa"></stop>
       </radialGradient>
     </defs>
     <path
@@ -79,7 +79,7 @@ const facebookIcon = (props) => (
     fill="none"
     props={props}
   >
-    <g clip-path="url(#clip0_17539_2775)">
+    <g clipPath="url(#clip0_17539_2775)">
       <path
         d="M32 16C32 7.16411 24.8359 0 16 0C7.16411 0 0 7.16411 0 16C0 23.9854 5.85009 30.605 13.5002 31.8065V20.6261H9.43665V16H13.5002V12.4742C13.5002 8.46463 15.8897 6.24835 19.5438 6.24835C21.2943 6.24835 23.1259 6.5611 23.1259 6.5611V10.4987H21.1076C19.1208 10.4987 18.4998 11.7317 18.4998 12.9985V16H22.9369L22.2281 20.6261H18.4998V31.8065C26.1499 30.6072 32 23.9876 32 16Z"
         fill="#1977F3"
@@ -99,16 +99,15 @@ const facebookIcon = (props) => (
 
 const KIcon = (props) => (
   <svg
-    width="20"
-    height="31"
-    viewBox="0 0 14 21"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    props={props}
+    width="200"
+    height="200"
+    viewBox="0 0 768 1024"
+    {...props}
   >
     <path
-      d="M3.44651 15.8482L3.43677 11.5917H4.00171L9.37833 5.58193H13.4985L6.88483 12.9456H6.15431L3.44651 15.8482ZM0.232229 20.543V0.594916H3.7582V20.543H0.232229ZM9.62184 20.543L4.75171 13.7345L7.12833 11.2508L13.8394 20.543H9.62184Z"
-      fill="#ABD652"
+      fill="#95BF46"
+      d="M704 1024q-31 0-56-32L128 263v697q0 26-18.5 45T64 1024t-45.5-19T0 960V65q0-27 18.5-46T64 0q35 0 55 32l521 730V64q0-26 19-45t45.5-19t45 19T768 64v896q0 26-19 45t-45 19z"
     />
   </svg>
 );

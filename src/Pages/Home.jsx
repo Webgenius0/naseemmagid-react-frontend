@@ -18,11 +18,11 @@ export default function Home() {
       <AsFeaturedIn />
       <Owner />
       <OurOffring />
-      <BrandExperience />
-      <ThePoweris />
-      <OurClientsSay />
       <GrowGlobe/>
       <GrowMarquee />
+      <ThePoweris />
+      <BrandExperience />
+      <OurClientsSay /> 
       <GotQuestions />
       <IGuessWhat />
     </div>
