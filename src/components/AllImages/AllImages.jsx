@@ -36,6 +36,36 @@ import avater11 from "../../assets/images/avater11.png";
 import avater12 from "../../assets/images/avater12.png";
 import avater13 from "../../assets/images/avater13.png";
 import avater14 from "../../assets/images/avater14.png";
+import avater15 from "../../assets/images/avater15.png";
+import avater16 from "../../assets/images/avater16.png";
+import avater17 from "../../assets/images/avater17.png";
+import avater18 from "../../assets/images/avater18.png";
+import avater19 from "../../assets/images/avater19.png";
+import avater20 from "../../assets/images/avater20.png";
+import avater21 from "../../assets/images/avater21.png";
+import avater22 from "../../assets/images/avater22.png";
+import avater23 from "../../assets/images/avater23.png";
+import avater24 from "../../assets/images/avater24.png";
+import avater25 from "../../assets/images/avater25.png";
+import avater26 from "../../assets/images/avater26.png";
+import avater27 from "../../assets/images/avater27.png";
+import avater28 from "../../assets/images/avater28.png";
+import avater29 from "../../assets/images/avater29.png";
+import avater30 from "../../assets/images/avater30.png";
+import avater31 from "../../assets/images/avater31.png";
+import avater32 from "../../assets/images/avater32.png";
+import avater33 from "../../assets/images/avater33.png";
+import avater34 from "../../assets/images/avater34.png";
+import avater35 from "../../assets/images/avater35.png";
+import avater36 from "../../assets/images/avater36.png";
+import avater37 from "../../assets/images/avater37.png";
+import avater38 from "../../assets/images/avater38.png";
+import avater39 from "../../assets/images/avater39.png";
+import avater40 from "../../assets/images/avater40.png";
+import avater41 from "../../assets/images/avater41.png";
+import avater42 from "../../assets/images/avater42.png";
+import avater43 from "../../assets/images/avater43.png";
+import avater44 from "../../assets/images/avater44.png";
 import logo20 from "../../assets/images/logo20.png";
 import logo21 from "../../assets/images/logo21.png";
 import logo22 from "../../assets/images/logo22.png";
@@ -92,6 +122,36 @@ export const AllImages = {
   avater12,
   avater13,
   avater14,
+  avater15,
+  avater16,
+  avater17,
+  avater18,
+  avater19,
+  avater20,
+  avater21,
+  avater22,
+  avater23,
+  avater24,
+  avater25,
+  avater26,
+  avater27,
+  avater28,
+  avater29,
+  avater30,
+  avater31,
+  avater32,
+  avater33,
+  avater34,
+  avater35,
+  avater36,
+  avater37,
+  avater38,
+  avater39,
+  avater40,
+  avater41,
+  avater42,
+  avater43,
+  avater44,
   logo20,
   logo21,
   logo22,
