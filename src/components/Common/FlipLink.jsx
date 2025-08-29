@@ -1,8 +1,8 @@
-import React from "react"
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
-const DURATION = 0.25
-const STAGGER = 0.025
+const DURATION = 0.25;
+const STAGGER = 0.025;
 
 const FlipLink = ({ children, href = "#" }) => {
   return (
@@ -29,7 +29,7 @@ const FlipLink = ({ children, href = "#" }) => {
             }}
             className="inline-block"
           >
-            {l}
+            {l === " " ? "\u00A0" : l}
           </motion.span>
         ))}
       </div>
@@ -50,12 +50,12 @@ const FlipLink = ({ children, href = "#" }) => {
             }}
             className="inline-block"
           >
-            {l}
+            {l === " " ? "\u00A0" : l}
           </motion.span>
         ))}
       </div>
     </motion.a>
-  )
-}
+  );
+};
 
-export default FlipLink
+export default FlipLink;
