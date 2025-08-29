@@ -55,12 +55,10 @@ export default function Navbar() {
 
               <div className="flex flex-col items-center justify-center min-h-[90vh] font-Lilita gap-6 text-6xl">
                 <FlipLink href="#">AGENCY</FlipLink>
-                <FlipLink href="#">COURSES</FlipLink>
                 <FlipLink href="#">SEO</FlipLink>
-                <FlipLink href="#">CRO</FlipLink>
+                <FlipLink href="#">FACEBOOK  ADS</FlipLink>
+                <FlipLink href="#">LANDING PAGES</FlipLink>
                 <FlipLink href="#">GOOGLE ADS</FlipLink>
-                <FlipLink href="#">LANDING'PAGESI</FlipLink>
-                <FlipLink href="#">FACEBOOK ADS</FlipLink>
               </div>
             </div>
           </div>
