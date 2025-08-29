@@ -5,9 +5,9 @@ export default function Owner() {
   return (
     <div className=" py-[120px] md:py-[233px] bg-[#f3f3f3] text-TertiaryBlack relative w-full">
       <div className="max-w-[808px] mx-auto px-4">
-        <div className="leading-[30px] text-lg">
+        <div className="leading-[30px] text-sm">
           {/* Heading */}
-          <h2 className="font-bold mb-6">Dear Ecom owner,</h2>
+          <h2 className="font-bold mb-6">Dear Ecom Owner,</h2>
 
           {/* Paragraphs */}
           <div className="">
@@ -18,10 +18,22 @@ export default function Owner() {
               Running an online store is hard. Really freaking hard.
               <br />
               <br />
-              You’re probably wondering where your next sale will come from.{" "}
+              You’re probably wondering where your next sale will come from.
               <br />
               <br />
-              Refreshing Shopify like it owes you money.
+              Worn down from trying to keep it all together.
+              <br />
+              <br />
+              Feeling like each day takes more than it gives.
+              <br />
+              <br />
+              And to top it all off,
+              <br />
+              <br />
+              no one sees the pressure you’re under.
+              <br />
+              <br />
+              Refreshing your store like it owes you money.
               <br />
               <br />
               Watching ad costs climb while your ROAS slides downhill.
@@ -41,7 +53,7 @@ export default function Owner() {
               What about TikTok ads?
               <br />
               <br />
-              Errrrrybody’s talking about TikTok ads.
+              Errrrybody’s talking about TikTok ads.
               <br />
               <br />
               Or maybe you should post on Instagram five times a day?
@@ -50,14 +62,17 @@ export default function Owner() {
               Send daily emails?
               <br />
               <br />
+              Drop 2k on a logo?
+              <br />
+              <br />
               Hire that “guru” who keeps promising “easy wins”?
               <br />
               <br />
-              Somebody please pass me the aspirin.
+              *Somebody please pass me the aspirin*
             </p>
-
+            <br />
             <p>
-              Most eCom founders have a bad case of “shiny object syndrome”…{" "}
+              Most Ecom owners have a bad case of “shiny object syndrome”…
               <br />
               <br />
               Mixed with a pinch of “I’ll just do it all myself”.
@@ -69,7 +84,7 @@ export default function Owner() {
               And before you know it, you’re staring at your ad account
               wondering where all your money went.
             </p>
-
+            <br />
             <p>
               We call that a conversion graveyard.
               <br />
@@ -77,13 +92,15 @@ export default function Owner() {
               Also known as a nightmare.
               <br />
               <br />
-              And we’d rather run out of coffee during Q4 than run a store that
-              way.
+              And{" "}
+              <span className="bg-[#006f00] text-white">
+                we’d rather swim with sharks than operate a business like that.
+              </span>
               <br />
               <br />
               But this isn’t about us… it’s about you.
             </p>
-
+            <br />
             <p>
               You’re here because, deep down, you know your store isn’t where
               you want it to be.
@@ -92,24 +109,30 @@ export default function Owner() {
               Or maybe you’re doing well, but you want more.
               <br />
               <br />
+              More Security
+              <br />
+              <br />
               More profit.
               <br />
-              <br /> More predictability.
+              <br />
+              <span className="font-bold">More freedom.</span>
               <br />
               <br />
-               More sales without praying to
-              the algorithm gods.
+              <span className="font-bold underline">
+                More time with your family.
+              </span>
+              <br />
+              <br />
+              More sales without praying to the algorithm gods.
             </p>
-
             {/* Subheading */}
-            <h3 className="font-bold mt-8">More freedom.</h3>
+            <br />
+            More time to actually enjoy the business you built.
             <br />
             <br />
             <p>
-              More time to actually enjoy the business you built.
-              <br />
-              <br />
-              More trips where you’re not glued to your phone checking orders.
+              More business-class flights with your spouse to places that result
+              in more sand between your toes.
               <br />
               <br />
               Whatever “more” means for you…
@@ -118,9 +141,8 @@ export default function Owner() {
               It all starts with taking the next step below.
             </p>
             <br />
-            <br />
             {/* Closing */}
-            <p className="font-bold">cue angels singing</p>
+            <p className="font-bold italic">*cue angels singing*</p>
           </div>
         </div>
       </div>
