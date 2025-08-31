@@ -5,7 +5,7 @@ export default function Owner() {
   return (
     <div className=" py-[120px] md:py-[233px] bg-[#f3f3f3] text-TertiaryBlack relative w-full">
       <div className="max-w-[808px] mx-auto px-4">
-        <div className="leading-[30px] text-sm">
+        <div className="leading-[30px] text-lg lg:text-xl">
           {/* Heading */}
           <h2 className="font-bold mb-6">Dear Ecom Owner,</h2>
 
