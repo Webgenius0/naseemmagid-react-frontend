@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-4 gap-y-10 lg:gap-y-0">
           <div className="xl:col-span-4 lg:pb-8">
             <h1 className="text-PrimaryColor text-3xl font-semibold">Nexal</h1>
-            <p className="text-white mt-6 mb-8 xl:mb-16">
+            <p className="text-white mt-6 mb-8 xl:mb-16 text-lg md:text-[20px] xl:max-w-[350px]">
               The most ruthlessly effective platform for rapidly scaling
               businesses on planet earth
             </p>

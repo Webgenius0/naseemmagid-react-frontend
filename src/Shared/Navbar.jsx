@@ -54,7 +54,7 @@ export default function Navbar() {
               </button>
 
               <div className="flex flex-col items-center justify-center min-h-[90vh] font-Lilita gap-6 text-6xl">
-                <FlipLink href="#">AGENCY</FlipLink>
+                <FlipLink href="#">About Us</FlipLink>
                 <FlipLink href="#">SEO</FlipLink>
                 <FlipLink href="#">FACEBOOK  ADS</FlipLink>
                 <FlipLink href="#">LANDING PAGES</FlipLink>
